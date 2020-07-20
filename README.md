@@ -2,7 +2,8 @@
 
 > Node.js Restful CRUD API using Express, Sequelize with MySQL database.
 
-This project is an example of REST APIs that can create, retrieve, update, delete and find Tutorials by title. Node.js Express exports REST APIs and interacts with MySQL Database using Sequelize ORM.
+This project is an example of REST APIs that can create, retrieve, update, delete and find Tutorials by title.
+Node.js Express exports REST APIs and interacts with MySQL Database using Sequelize ORM.
 
 <p align="center">
     <img src="https://github.com/fredericoqueiroz/nodejs-crud-api/blob/media/API-Architecture.png?raw=true" title="Architecture" alt="Architecture">
@@ -43,4 +44,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## License
 
-- This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE.md) file for details.
+- This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
