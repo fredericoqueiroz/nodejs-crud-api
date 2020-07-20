@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- [MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html) Database sould be installed in your machine.
+- [MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html) database should be installed in your machine.
 
 ## Built With
 
