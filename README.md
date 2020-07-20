@@ -4,6 +4,8 @@
 
 This project is an example of REST APIs that can create, retrieve, update, delete and find Tutorials by title. Node.js Express exports REST APIs and interacts with MySQL Database using Sequelize ORM.
 
+![API Architecture](https://github.com/fredericoqueiroz/nodejs-crud-api/blob/media/API-Architecture.png?raw=true)
+
 ## APIs Overview
 
 The following table shows an overview of the APIs that Express App will export:
