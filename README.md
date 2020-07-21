@@ -24,23 +24,39 @@ The following table shows an overview of the APIs that Express App will export:
 | api/tutorials/published | GET | find all published Tutorials |
 | api/tutorials?title=[eg] | GET | find all Tutorials which title contains `eg` |
 
-## Getting Started
+## Project setup
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-- [MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html) database should be installed in your machine.
+- <a href="https://dev.mysql.com/doc/refman/5.7/en/installing.html" target="_blank">MySql Database</a>
+- <a href="https://nodejs.org/en/" target="_blank">Node.js</a>
+
+### Installation
+
+- Clone this repo to your local machine.
+
+- Install the following modules:
+    ```
+    npm install express sequelize mysql2 body-parser cors --save
+    ```
+
+- Update the file <i>app/config/[db.config.js](app/config/db.config.js)</i> with you local database config.
+
+- Create the dabatase: `create database tutorial_db`
+
+- Run the application with command: `node server.js`
 
 ## Built With
 
-- [Node.js](https://nodejs.org/en/about/) - Asynchronous event-driven JavaScript runtime designed to build scalable network applications.
-- [Express](https://expressjs.com/) - Web framework for Node.js.
-- [Sequelize](https://expressjs.com/) - Promise-based Node.js ORM for MySQL.
+- <a href="https://nodejs.org/en/about/" target="_blank">Node.js</a> - Asynchronous event-driven JavaScript runtime designed to build scalable network applications.
+- <a href="https://expressjs.com/" target="_blank">Express</a> - Web framework for Node.js.
+- <a href="https://sequelize.org/" target="_blank">Sequelize</a> - Promise-based Node.js ORM for MySQL.
 
 ## Author
 
-- [**Frederico Queiroz**](https://github.com/fredericoqueiroz).
+<a href="https://github.com/fredericoqueiroz" target="_blank">Frederico Queiroz</a>
 
 ## License
 
