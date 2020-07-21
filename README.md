@@ -24,6 +24,10 @@ The following table shows an overview of the APIs that Express App will export:
 | api/tutorials/published | GET | find all published Tutorials |
 | api/tutorials?title=[eg] | GET | find all Tutorials which title contains `eg` |
 
+## Project structure
+
+
+
 ## Project setup
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -37,16 +41,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Clone this repo to your local machine.
 
-- Install the following modules:
+- Install the following modules in the project folder:
     ```
     npm install express sequelize mysql2 body-parser cors --save
     ```
 
 - Update the file <i>app/config/[db.config.js](app/config/db.config.js)</i> with you local database config.
 
-- Create the dabatase: `create database tutorial_db`
+- Create the dabatase: `create database tutorial_db;`
 
-- Run the application with command: `node server.js`
+- Run the application: `node server.js`
 
 ## Built With
 
@@ -60,4 +64,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## License
 
-- This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
