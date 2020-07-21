@@ -24,10 +24,6 @@ The following table shows an overview of the APIs that Express App will export:
 | api/tutorials/published | GET | find all published Tutorials |
 | api/tutorials?title=[eg] | GET | find all Tutorials which title contains `eg` |
 
-## Project structure
-
-
-
 ## Project setup
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
